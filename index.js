@@ -1,3 +1,4 @@
+require('dotenv').config()
 const app = express()
 
 var Client = require('coinbase').Client;
